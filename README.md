@@ -20,8 +20,8 @@ React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이�
    ```
 
 3. **프론트엔드 환경 설정**
-   - `frontend/frontend/.env` 파일의 `192.168.0.245` 부분을  
-     **서버를 실행할 컴퓨터의 IP 주소**로 변경하세요.
+   - `frontend/frontend/.env` 파일에서 REACT_APP_BASE_URL의 값을  
+     **서버를 실행할 컴퓨터의 IP 주소**로 변경하세요. (포트는 8000으로 두는 것을 권장합니다.)
 
 4. **서버 실행**
    - 터미널(Shell) 두 개를 실행시킨 후, 각각 아래 명령어를 입력하세요.  
@@ -33,7 +33,7 @@ React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이�
    python -m venv venv   # ② 새 가상환경 생성
    venv/Scripts/activate # ③ 가상환경 활성화 (mac은 source venv/bin/activate)
    pip install -r requirements.txt  # ④ 의존성 설치
-   uvicorn main:app --host 0.0.0.0 --port 8000  # ⑤ 서버 실행 테스트
+   uvicorn main:app --host 0.0.0.0 --port 8000  # ⑤ 서버 실행 테스트 (포트를 바꿨다면 포트를 수정해주세요)
    ```
 
    **프론트엔드 실행**
