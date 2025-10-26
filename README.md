@@ -29,9 +29,11 @@ React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이�
 
    **백엔드 실행**
    ```bash
-   cd ./backend
-   venv/Scripts/activate
-   uvicorn main:app --host 0.0.0.0 --port 8000
+   cd ./backend          # ① 백엔드 폴더로 이동
+   python -m venv venv   # ② 새 가상환경 생성
+   venv/Scripts/activate # ③ 가상환경 활성화 (mac은 source venv/bin/activate)
+   pip install -r requirements.txt  # ④ 의존성 설치
+   uvicorn main:app --host 0.0.0.0 --port 8000  # ⑤ 서버 실행 테스트
    ```
 
    **프론트엔드 실행**
