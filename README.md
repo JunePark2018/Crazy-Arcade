@@ -13,11 +13,11 @@ React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이�
    ```
 
 2. **데이터베이스 연결 설정**
-   - `backend/crazyarcade_db/database/connection.py` 파일에서  
-     `DATABASEURL` 값을 구축한 데이터베이스 정보에 맞게 수정하세요.
-     ```python
-     DATABASEURL = "mysql+pymysql://<user>:<password>@<host>:<port>/<database>"
-     ```
+   ```python
+   # backend/crazyarcade_db/database/connection.py 파일에서  
+   # `DATABASEURL` 값을 구축한 데이터베이스 정보에 맞게 수정하세요.
+   DATABASEURL = "mysql+pymysql://<user>:<password>@<host>:<port>/<database>"
+   ```
 
 3. **프론트엔드 환경 설정**
    - `frontend/frontend/.env` 파일의 `192.168.0.245` 부분을  
