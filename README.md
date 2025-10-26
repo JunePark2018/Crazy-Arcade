@@ -48,8 +48,8 @@ React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이�
 
 ## 📦 기술 스택
 
-- **Frontend:** React  
-- **Backend:** FastAPI  
+- **Frontend:** React, react-dom-router, axios
+- **Backend:** FastAPI, SQLAlchemy, Pydantic
 - **Database:** MySQL  
 
 ---
