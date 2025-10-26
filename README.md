@@ -2,6 +2,8 @@
 
 React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이드를 모작했습니다.
 
+**다운로드 링크: https://drive.google.com/file/d/1JWSvx-dESRBoqyp0SrssuXqLfYLel_xD/view?usp=sharing**
+
 ---
 
 ## 🚀 실행 방법
