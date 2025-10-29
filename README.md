@@ -16,7 +16,7 @@ React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이�
 
 1. **데이터베이스 초기화**
    ```sql
-   -- 다음 MySQL 스크립트를 실행하여 데이터베이스를 구축하세요.
+   -- 다음 MySQL 스크립트를 적절히 수정한 후 실행하여 데이터베이스를 구축하세요.
    mysql -u user -p < crazyarcade_init.sql
    ```
 
