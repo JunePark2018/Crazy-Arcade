@@ -6,12 +6,18 @@ React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이�
 
 ---
 
-## 🚀 실행 방법
+## 🚀 실행 방법 (Windows 기준)
+
+0. **필수 환경**
+   - Windows OS
+   - Python 3.x
+   - MySQL
+   - Node.js + npm
 
 1. **데이터베이스 초기화**
    ```sql
    -- 다음 MySQL 스크립트를 실행하여 데이터베이스를 구축하세요.
-   crazyarcade_init.sql
+   mysql -u user -p < crazyarcade_init.sql
    ```
 
 2. **데이터베이스 연결 설정**
