@@ -6,6 +6,16 @@ React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이�
 
 ---
 
+## 스크린샷
+
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/1e356f12-b774-4978-9813-b5f1b6366204" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/0caba0b9-a63c-4c8c-859b-043b353160a2" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/e522734c-f475-4b68-8981-c872992a06da" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/22f46bc9-04eb-42c9-ae07-100ae45518d7" />
+<img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7245d30e-9377-4175-877d-e122aec38717" />
+
+---
+
 ## 🚀 실행 방법 (Windows 기준)
 
 0. **필수 환경**
