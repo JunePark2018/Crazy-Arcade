@@ -56,7 +56,7 @@ React + FastAPI + MySQL로 실시간 온라인 게임인 크레이지 아케이�
 
    **프론트엔드 실행**
    ```bash
-   cd ./frontend/frontend
+   cd ./frontend
    npm start
    ```
 
